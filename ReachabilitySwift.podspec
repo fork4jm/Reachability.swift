@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   s.name         = 'ReachabilitySwift'
   s.version      = '4.1.0'
   s.module_name = 'ReachabilitySwift'
-  s.homepage     = 'https://github.com/ashleymills/Reachability.swift'
+  s.homepage     = 'https://github.com/fork4jm/Reachability.swift'
   s.authors      = {
     'Ashley Mills' => 'ashleymills@mac.com'
   }
@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.osx.deployment_target = "10.9"
   s.tvos.deployment_target  = "9.0"
   s.source       =  {
-    :git => 'https://github.com/ashleymills/Reachability.swift.git',
+    :git => 'https://github.com/fork4jm/Reachability.swift.git',
     :tag => 'v'+s.version.to_s
   }
   s.source_files = 'Reachability/Reachability.swift'
